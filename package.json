@@ -1,0 +1,24 @@
+{
+  "name": "@byteinspire-template/express",
+  "version": "0.0.5",
+  "files": [
+    "*",
+    "!.*",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "@byteinspire/api": "^1.0.12",
+    "@byteinspire/inspirecloud-api": "*",
+    "express": "^4.17.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {},
+  "license": "ISC",
+  "scripts": {
+    "dev": "inspirecloud dev",
+    "deploy": "inspirecloud deploy"
+  }
+}
